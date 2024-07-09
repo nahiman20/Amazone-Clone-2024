@@ -1,0 +1,6 @@
+The value of 14 when passed through the myMultiplier function is 28.
+The value of 14 when passed through the myMultiplier function (from mySecondModule) is 42.
+The value of 14 when passed through the myMultiplier function is 28.
+The value of 14 when passed through the myMultiplier function (from mySecondModule) is NaN.
+The value of 14 when passed through the myMultiplier function is 28.
+The value of 14 when passed through the myMultiplier function (from mySecondModule) is 42.

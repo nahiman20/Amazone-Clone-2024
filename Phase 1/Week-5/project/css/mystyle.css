@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+img {
+  width: 100%;
+}
+.blueBG {
+  background-color: #085070;
+  color: white;
+  font-size: 40px;
+}
+.missing {
+  background-color: red;
+}
+.missing p {
+  font-size: 25px;
+}
+@media (min-width: 992px) {
+    .missing p {
+        font-size: 45px;
+    }
+}
+
+
+
+/* .blueBG{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+} .blueBG{
+    background-color: #085070;
+} .myHeader{
+    padding: 20px 0;
+} .puppies-section{
+    margin: 0 auto;
+    padding: 0 5%;
+} #Banner,
+  .puppy-1,
+  .Brown-puppy{
+    margin-bottom: 44px;
+
+} .missing-wrapper{
+    display: none;
+} .subtitle{
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 44px;
+    font-size: 32px;
+    font-weight: 900;
+} .footer{
+    margin-top: 73px;
+    padding: 100px 0 123px;
+} Media Quary Start @media (min-width: 768px) { .puppy-1{
+        margin-bottom: 0;
+    } .missing-wrapper{
+    display: block;
+    font-size: 35px;
+    padding: 43px 50px 43px;
+    } .puppies-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 960px;
+    } .missing-puppy{
+        background-color: #f04d64;
+        margin: 0 1%;
+    } .puppy-1,
+  .missing-puppy,
+  .Puppy-2 { width: 33%; } .Brown-puppy{
+        margin-right: 25px;
+    } .white-puppy{
+        margin-left: 25px;
+    } } /* Media Quary End */;

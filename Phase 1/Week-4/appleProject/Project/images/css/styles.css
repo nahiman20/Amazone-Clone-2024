@@ -1,0 +1,495 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'montserrat',sans-serif;
+    box-sizing: border-box;
+}
+
+/*  navigation-bar */ 
+nav{
+    background-color:black;
+    font-weight: 200;
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    padding:0.4% 11%;
+    width: 100%;
+    position: fixed;  
+}
+.nav-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-items li{ 
+    list-style: none;
+    padding-bottom:4px;
+}
+.list a{ 
+    text-decoration:none;
+    color:white;
+    opacity:0.6;
+}
+.icons{
+    width: 18px;
+    margin-top: 7px;
+    color: white;
+    opacity:0.8;
+}
+.list a:hover,
+.icons:hover {
+    opacity: 1;
+}
+
+    /* First Highlight Section Here*/
+
+.main-highlight-wrapper{
+    background-color: #fafafa;
+    text-align: center;
+    padding: 25px 0;
+}
+.links-wrapper ul {
+	list-style: none;
+}
+.model {
+	font-size: .85em;
+}
+.product-title {
+    font-weight: 700;
+    font-size: 56px;
+}
+.brief-description{
+    font-size: 2em;
+}
+.links-wrapper {
+	padding: 15px 0;
+}
+
+.links-wrapper ul li{
+    display: inline-block;
+    padding-right: 20px;
+    
+}
+.links-wrapper ul li a {
+    color: #06c; 
+    text-decoration: none;
+    display: flex;
+    opacity: 0.8;
+} 
+.links-wrapper ul li a:hover {
+    opacity: 1;
+} 
+.links-wrapper ul li a:after {
+font-family: "FontAwesome";
+font-weight: 900;
+content: "\f105";
+padding-left: 10px;
+} 
+/* First Highlight End Here
+
+/* Second-highlight start here*/
+.second-hightlight-wrapper {
+    background-image: url("../images/home/iphone11-pro-bg.jpg");
+    height: 580px;
+	background-position: center;
+	background-repeat: no-repeat;
+    background-size: cover;
+	text-align: center;
+	padding: 65px 20px;
+	color: #fff
+}
+.title-wraper {
+	font-weight: 600;
+	font-size: 56px;
+}
+.description-wrapper {
+	font-size: 26px;
+	padding: 10px 0;
+}
+.price-wrapper {
+	color: #86868b; 
+	font-size: 0.85em;
+}
+ /* Second-highlight start here */
+
+ /* -- Third-highlight start here -- */
+
+.third-highlight-wrapper {
+	background-image: url("../images/home/iphone11-bg.jpg");
+	height: 580px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	padding: 65px 20px;
+}
+/* <!-- Third-highlight End here --> */
+
+/* <!-- Forth-highlight Start here --> */
+.fourth-highlight-wrapper {
+	display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    background: #fff;
+}
+.left-side-wrapper {
+	height: 580px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	width: 48.5%;
+	margin: 1% 0.5% 0% 1%; 
+	padding-top: 54px;
+
+}
+.fourth-highlight-wrapper .left-side-wrapper {
+	background-image:  url("../images/home/watch-series-5.jpg"); 
+} 
+.right-side-wrapper {
+	height: 580px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;	
+	width: 48.5%;
+	margin: 1% 1% 0% 0.5%; 
+	padding-top: 54px;
+    
+}
+.fourth-highlight-wrapper .right-side-wrapper {
+	background-image:  url("../images/home/apple-card.jpg"); 
+}
+.description-wraper {
+	max-width: 430px;
+	margin: 0 auto;
+	padding: 10px; 
+} 
+
+
+/* <!-- Forth-highlight End here --> */
+/* fifth */
+
+/*Fivth Highlight Section */
+.fifth-heghlight-wrapper {
+	display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  background: #fff;
+}
+.fifth-heghlight-wrapper .left-side-wrapper {
+	background-image:  url("../images/home/apple-tv-background.jpg"); 
+}
+.fifth-heghlight-wrapper .right-side-wrapper {
+	background-image:  url("../images/home/air-pods.jpg"); 
+	color: #fff; 
+	background-size: initial;
+	background-color: #000;
+	background-position: bottom;
+}
+.logo-wrapper {
+	font-size: 40px;
+	font-weight: bold;
+}
+.tvshow-logo-wraper {
+	padding: 180px 0 150px;
+}
+.left-side-wrapper .watch-more-wrapper{
+    margin-bottom: 1rem; 
+}
+.watch-more-wrapper a {
+	text-decoration: none;
+	font-size: 0.85em;
+}
+.watch-more-wrapper a:after {
+font-family: "FontAwesome";
+font-weight: 900;
+content: "\f144";
+padding-left: 15px;
+}
+/*Sixth Highlight Section */
+.sixth-heghlight-wrapper {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    background: #fff;
+}
+.sixth-heghlight-wrapper .left-side-wrapper {
+	background-image:  url("../images/home/macbook-pro.jpg"); 
+	background-size: initial;
+	background-color: #fafafa;
+	background-position: bottom;
+}
+.sixth-heghlight-wrapper .right-side-wrapper {
+	background-image:  url("../images/home/new-ipad.jpg"); 
+}
+.product-title-small {
+	font-weight: 700;
+	font-size: 45px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer Style Start*/
+footer {
+    background-color: #f5f5f7;
+    color: #1d1d1f;
+    font-size: .65em;
+}
+
+.internal-wrapper {
+    border-bottom: 1px solid #d2d2d7;
+    color: 17px 0 20px;
+    padding: 17px 0 20px;
+    width: 960px;
+    margin: 0 auto;
+}
+.internal-wrapper a {
+    text-decoration: none;
+    color: #515154; 
+}
+.internal-wrapper a:hover {
+    text-decoration: underline; 
+}
+.footer-links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    width: 960px;
+    margin: 0% auto;
+}
+.footer-links-wrapper ul {
+    padding-bottom: 20px;
+    list-style: none;
+}
+.footer-links-wrapper ul li {
+    padding: 5px 0;
+    font-size: .99em;
+}
+.footer-links-wrapper a {
+    color: #515154;
+    text-decoration: none;
+}
+.footer-links-wrapper a:hover {
+    text-decoration: underline;
+}
+.footer-links-wrapper h3 {
+    font-size: 12px;
+    font-weight: 600;
+}
+.my-apple-wrapper{
+border-bottom: 1px solid #d2d2d7;
+padding-bottom: 10px;
+margin-bottom: 10px;
+width: 960px;
+margin: 0% auto;
+}
+.copyright-wrapper {
+display: flex;
+justify-content: space-between;
+padding: 10px 0 20px;
+width: 960px;
+margin: 0% auto;
+
+}
+.footer-links-terms ul li{
+display: inline-block;
+padding: 0 5px;
+border-right: 1px solid #ccc;
+}
+.footer-links-terms ul li a:hoover{
+text-decoration: underline;
+}
+.flag-wrapper{
+    display: inline-block;
+    vertical-align: middle;
+}
+.footer-country-name{
+    display: inline-block;
+    vertical-align: top;
+}
+/* *Footer Style End  */
+
+
+
+
+function myFirst() {
+    console.log("Hello");
+}
+myFirst();
+
+
+
+
+
+
+
+// Define a simple function named myFirst that prints the word "Hello" on the console
+// ○ First define the function
+// ○ Then call the function
+function myFirst() {
+    console.log("Hello");
+}
+myFirst();
+// ● Define a function called mySecond that takes a parameter and prints the parameter on
+// console
+// ○ Feel free to give any value as a parameter in your function
+function mySecond(parameter) {
+    console.log(parameter);
+}
+mySecond("this a test");
+
+// ● Define a function called myThird that takes a parameter and prints the parameter on the
+// console. But, it uses mySecond function to print the parameter on the console
+function myThird(parameter) {
+    mySecond(parameter);
+}
+myThird("parameter");
+
+// Write a function named myFourth that takes an array as a parameter and prints only the first
+// value of the array on the console.
+const students = [2, 3, 4];
+function myForth(array) {
+  console.log(array[0]);
+}
+myForth([2, 3, 4]);
+
+// Write a function named myFifth that takes an array with two numbers in it as a parameter and
+// prints the sum of the two numbers on console
+function myFifth(num) {
+    if (num.length === 2 && typeof num[0] === "number" && typeof num[1]) {
+    let sum = num[0] + num[1];
+    console.log(sum);
+    } else {
+    console.log("wrong");
+}
+}
+myFifth([5, 3]);
+
+// Write a function that takes an integer minutes and converts it to seconds
+// function MintoSec (minutes)
+function MintoSec(a) {
+  let result = a * 60;
+    if (a > 0 && typeof a === "number") {
+    console.log(result);
+    } else console.log("put neg num");
+}
+MintoSec(20);
+
+//     Create a function that takes a number as a parameter, increments the number by +1 and
+// returns the result.
+function incrementIfNumber(input) {
+    if (typeof input === "number") {
+    return input + 1;
+    } else {
+    return "Input must be a number";
+    }
+}
+
+    console.log( incrementIfNumber(5));
+
+// Write a function that takes the base and height of a triangle and returns its area.
+
+function calculateTriangleArea(b, h) {
+if (b > 0 && h > 0){
+    return (b * h)/2;
+} else {
+    return "must be posetive num";
+}
+}
+console.log (calculateTriangleArea(2, 4));
+
+  // Create a function that returns the total number of legs of all the animals. In this challenge, a
+  // farmer is asking you to tell him how many legs can be counted among all his animals. The
+  // farmer breeds three species (chickens = 2 legs, cows =, 4 legs, pigs = 4 legs). Remember: the
+  // farmer wants to know the total number of legs and not the total number of animals.
+
+    function totalLegs(chickens, cows, pigs) {
+    // Calculate total number of legs
+    let chickensLegs = chickens * 2;
+    let cowsLegs = cows * 4;
+    let pigsLegs = pigs * 4;
+
+    return chickensLegs + cowsLegs + pigsLegs;
+    }
+    let total = totalLegs(2, 4 ,4);
+console.log("Total : " + total);
+
+// Create a function that takes an array containing only TWO numbers as a parameter and returns
+// a value that is 3 times the first element of the array.
+function tripleFirstElement(arr) {
+    if (arr.length === 2) {
+    return arr[0] * 3;
+    } else {
+    Error("Array must contain exactly two numbers.");
+    }
+}
+let finalResult = tripleFirstElement([2,3]);
+console.log(finalResult);
+// ● Create a function that returns true when num1 is equal to num2; otherwise return false.
+
+function areNumbersEqual(num1, num2) {
+    if (typeof num1 == "number" &&  typeof num2 == "number" && num1 == num2){
+        return true;
+    }else{
+        return false
+    }
+    
+}
+console.log(areNumbersEqual(4, 4));
+
+// Create a function that takes an integer and returns true if it's divisible by 100, otherwise
+// return false.
+function divisible(num) {
+    if (num % 100 === 0) {      
+    return true;
+    } else {
+    return false;
+}
+}
+console.log(divisible(0))  
+
+// Create a function that takes a number as an argument and returns "even" for even numbers
+// and "odd" for odd numbers
+function isEvenOrOdd(num) {
+    if (num % 2 === 0) {
+    return "even";
+} else {
+    return "odd";
+    }
+}
+console.log(isEvenOrOdd(6));
+
+
+// ● Create a function that returns
+// ○ “Invalid score” if score is above 100 or score is a negative number
+// ○ “Grade A” when score is between 90 and 100 (both 90 and 100 included)
+// ○ “Grade B” when score is between 80 and 89 (both 80 and 89 included)
+// ○ “Grade C” for any score below 79
+
+function gradeScore (score) {
+    if ( score < 0 || score > 100) 
+return "invalid score";
+    else if (score >= 90) 
+return "Grade A";
+else if (score >= 80)
+return "Grade B";
+else {
+    return "Grade C"
+}
+}
+console.log (gradeScore(99))
